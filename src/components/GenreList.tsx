@@ -5,11 +5,9 @@ import {
   List,
   ListItem,
   Spinner,
-  Text,
 } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
 import getCroppedImageUrl from "../services/image-url";
-import { link } from "framer-motion/client";
 
 interface Props {
   onSelectGenre: (genre: Genre) => void;
